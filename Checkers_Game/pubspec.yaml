@@ -1,0 +1,48 @@
+name: checkers
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.0.7+1
+  audioplayers: ^0.20.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#fffff"
+  image: assets/images/scs.png
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  fullscreen: true
+  image_dark: assets/images/cct.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/cct.png
+    - assets/images/scs.png
+    - assets/images/1x1.jpeg
+    - assets/images/ivan.jpg
+    - assets/images/naz.jpg
+    - assets/sounds/click.mp3
+    - assets/sounds/move.mp3
+    - assets/images/icon.png
+    - assets/images/checkersbg.jpg
+    - assets/images/load.png
+    - assets/images/bg.jpg
+    - assets/images/joseph.jpeg
